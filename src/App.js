@@ -19,7 +19,7 @@ function App() {
       theme: 'dark',
       gridClass: 'card-2x1',
       backgroundColor: 'bg-color-black',
-      textPosition: 'top-left', // Added this
+      textPosition: 'bottom-left', // Added this
     },
     { 
       gridClass: 'card-2x2',
