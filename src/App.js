@@ -26,13 +26,15 @@ function App() {
     },
 
     { 
-      title: 'Resume',
-      description: '',
       theme: 'light',
-      downloadPath: '/files/GPResume.pdf',
       gridClass: 'card-1x1',
-      backgroundColor: 'bg-color-blue', // or 'path/to/image.jpg' or another color class
-      textPosition: 'top-left', // Added this
+      backgroundColor: 'bg-color-offwhite', // or 'path/to/image.jpg' or another color class
+      textPosition: 'center-middle', // Added this
+      socialLinks: {
+        linkedin: 'https://linkedin.com/in/user1',
+        github: 'https://github.com/Gauthampdn/',
+        website: '/files/GPResume.pdf'
+      }
     },
     { 
       title: 'AI Study Planner',
@@ -49,7 +51,7 @@ function App() {
       title: 'SafeGrub',
       description: 'A web app utilizing computer vision, the Clarifai API, and the Openfoodfacts API to aid visually impaired individuals with food allergies. The app enables users to scan food wrappers using their webcam and extract the serial number. It then parses through a database of ingredients to identify any common allergens associated with the serial number, and uses text-to-speech technology to read the list of ingredients aloud, ensuring accessibility for individuals with visual impairments.',
       tags: ['HTML/CSS', 'JAVASCRIPT', 'REST API'],
-      link: 'https://www.google.com',
+      link: 'https://github.com/Gauthampdn/hackdavis2023',
       gridClass: 'card-3x1',
       theme: 'dark',
       backgroundImage: food,

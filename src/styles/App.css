@@ -1,7 +1,6 @@
 :root {
   --division: 4;
-  --app-margin: 40px;
-  --grid-gap: 40px;
+  --app-margin: 30px;
 
     /* Light theme */
     --light-text: #000000;
@@ -13,6 +12,7 @@
 .App {
   width: calc(100% - 2 * var(--app-margin));
   margin: var(--app-margin);
+  margin-bottom: 0px;
 }
 
 .grid-container {
@@ -25,7 +25,7 @@
 }
 
 .card {
-  padding: 40px;
+  padding: 35px;
   border-radius: 20px;
   box-sizing: border-box;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -127,7 +127,7 @@
 }
 
 .bg-color-green {
-  background-color: #2ec4b6;
+  background-color: #2ec479;
 }
 
 .bg-color-offwhite {
@@ -142,21 +142,27 @@
   background-color: #2f2f2f;
 }
 
+.bg-color-midnight {
+  background-color: #1d0b53;
+}
+
 
 /* ... existing styles ... */
-
 .social-icons {
   margin-top: 0px;
+  
 }
 
 .social-icons a {
-  margin-right: 10px;
-  color: #333; /* Or any color you prefer */
+  margin: 20px; /* Adjust as needed */
+  color: #000000; /* Or any color you prefer */
   text-decoration: none;
-}
+  display: absolute;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center;    }
 
 .social-icons i {
-  font-size: 20px; /* Adjust size as needed */
+  font-size: 40px; /* Adjust size as needed */
 }
 
 /* ... existing styles ... */
@@ -232,6 +238,13 @@ p, h3, h4, .tags {
   flex-direction: column;
   justify-content: flex-end; /* Aligns content to the bottom */
   align-items: flex-start; /* Aligns content to the left */
+}
+
+.card-center-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Aligns content to the center vertically */
+  align-items: center;     /* Aligns content to the center horizontally */
 }
 
 /* ... your existing styles ... */
