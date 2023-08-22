@@ -8,6 +8,8 @@ import sideSmileImage from './backgrounds/sidesmile.JPG';
 import serioussmile from './backgrounds/serioussmile.JPG'
 import whiteshadow from './backgrounds/whiteshadow.jpg'
 import food from './backgrounds/food.jpg'
+import forestfire from './backgrounds/forestfire.jpg'
+
 
 function App() {
   const projects = [
@@ -46,16 +48,15 @@ function App() {
       backgroundColor: 'bg-color-blue', // or 'path/to/image.jpg' or another color class
       textPosition: 'top-left', // Added this
     },
-
     { 
       title: 'SafeGrub',
-      description: 'A web app utilizing computer vision, the Clarifai API, and the Openfoodfacts API to aid visually impaired individuals with food allergies. The app enables users to scan food wrappers using their webcam and extract the serial number. It then parses through a database of ingredients to identify any common allergens associated with the serial number, and uses text-to-speech technology to read the list of ingredients aloud, ensuring accessibility for individuals with visual impairments.',
+      description: 'A web app to aid visually impaired individuals with food allergies. The app enables users to scan food wrappers using their webcam, then parses through a database of ingredients to identify any common allergens associated with the serial number, and reads the list of ingredients aloud.',
       tags: ['HTML/CSS', 'JAVASCRIPT', 'REST API'],
       link: 'https://github.com/Gauthampdn/hackdavis2023',
       gridClass: 'card-3x1',
       theme: 'dark',
       backgroundImage: food,
-      textPosition: 'top-left', // Added this
+      textPosition: 'bottom-left', // Added this
     },
     { 
       title: 'Aggieworks: Clubly',
@@ -67,8 +68,9 @@ function App() {
     },
     { 
       title: 'Pergi',
-      gridClass: 'card-2x1',
+      gridClass: 'card-1x1',
       description: 'I am the Founder of Pergi: Your Ultimate ChatGPT Prompt Assistant. Recognizing the inconvenience of constantly retyping ChatGPT prompts, I embarked on a mission to streamline this process to help with prompt engineering.',
+      link: 'https://pergi.app/',
       tags: ['ASTRO', 'APPSCRIPT', 'EXCEL'],
       backgroundColor: 'bg-color-green',
       textPosition: 'top-left', // Added this
@@ -77,8 +79,10 @@ function App() {
       title: 'SparkDefense ',
       description: 'A system to detect the fires of an area, inform nearby servers and devices in that area of those fires, and ensure the safety of the residents in the community.',
       tags: ['PYTHON', 'RASPBERRY PI', 'TWILIO API'],
-      gridClass: 'card-1x1',
-      backgroundColor: 'bg-color-lavender',
+      link: 'https://devpost.com/software/spark-defense',
+      gridClass: 'card-2x1',
+      theme: 'dark',
+      backgroundImage: forestfire,
       textPosition: 'top-left', // Added this
     },
 
