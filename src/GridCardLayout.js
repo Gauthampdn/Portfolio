@@ -50,7 +50,7 @@ const GridCardLayout = ({ projects }) => {
                                 </a>
                             )}
                             {project.socialLinks.website && (
-                                <a href={project.socialLinks.website} target="_blank" rel="noopener noreferrer">
+                                <a href={project.socialLinks.website} download>
                                     <i className="fa fa-file"></i>
                                 </a>
                             )}

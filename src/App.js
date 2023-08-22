@@ -31,7 +31,7 @@ function App() {
       backgroundColor: 'bg-color-offwhite', // or 'path/to/image.jpg' or another color class
       textPosition: 'center-middle', // Added this
       socialLinks: {
-        linkedin: 'https://linkedin.com/in/user1',
+        linkedin: 'linkedin.com/in/gautham-pandian/',
         github: 'https://github.com/Gauthampdn/',
         website: '/files/GPResume.pdf'
       }
