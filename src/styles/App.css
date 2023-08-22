@@ -138,7 +138,7 @@
   background-color: #f23e3e;
 }
 
-.bg-color-offwhite {
+.bg-color-black {
   background-color: #2f2f2f;
 }
 
@@ -242,4 +242,22 @@ p, h3, h4, .tags {
 
 .card.dark-theme {
   color: var(--dark-text);
+}
+
+
+.button-link {
+  background-color: rgba(255, 255, 255, 0.3); /* Translucent white background */
+  border: none;
+  padding: 7px 12px;
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly less translucent on hover */
 }

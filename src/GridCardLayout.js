@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 
 const GridCardLayout = ({ projects }) => {
     return (
@@ -21,6 +21,20 @@ const GridCardLayout = ({ projects }) => {
                     {project.title && <h3>{project.title}</h3>}
                     {project.subtitle && <h4>{project.subtitle}</h4>}
                     {project.description && <p>{project.description}</p>}
+
+                    {/* Conditional rendering of the link button */}
+                    {project.link && (
+                        <button className="button-link" onClick={() => window.open(project.link, '_blank')}>
+                            Visit Link
+                        </button>
+                    )}
+
+                    {/* Conditional rendering of the download button */}
+                    {project.downloadPath && (
+                        <a  className="button-link" href={project.downloadPath} download>
+                            Download
+                        </a>
+                    )}
                 </div>
             ))}
         </div>
