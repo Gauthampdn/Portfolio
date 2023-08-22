@@ -72,7 +72,9 @@ function App() {
       textPosition: 'top-left', // Added this
     },
     { 
-      description: 'Description for project 2',
+      title: 'SparkDefense ',
+      description: 'A system to detect the fires of an area, inform nearby servers and devices in that area of those fires, and ensure the safety of the residents in the community.',
+      tags: ['PYTHON', 'RASPBERRY PI', 'TWILIO API'],
       gridClass: 'card-1x1',
       backgroundColor: 'bg-color-lavender',
       textPosition: 'top-left', // Added this
