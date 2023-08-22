@@ -59,22 +59,23 @@ function App() {
       textPosition: 'bottom-left', // Added this
     },
     { 
-      title: 'Aggieworks: Clubly',
-      description: 'Designed and developed the landing page for the club finder app created by Aggieworks. Clubly, is a convenient and efficient solution for discovering, organizing, and managing club information on campus. It streamlines the process, providing a centralized hub for students to explore clubs, stay updated with memberships and events, and communicate with club leaders.',
-      tags: ['ASTRO','FIGMA'],
-      gridClass: 'card-1x2',
-      backgroundColor: 'bg-color-yellow',
-      textPosition: 'top-left', // Added this
-    },
-    { 
       title: 'Pergi',
-      gridClass: 'card-1x1',
+      gridClass: 'card-1x2',
       description: 'I am the Founder of Pergi: Your Ultimate ChatGPT Prompt Assistant. Recognizing the inconvenience of constantly retyping ChatGPT prompts, I embarked on a mission to streamline this process to help with prompt engineering.',
       link: 'https://pergi.app/',
       tags: ['ASTRO', 'APPSCRIPT', 'EXCEL'],
       backgroundColor: 'bg-color-green',
       textPosition: 'top-left', // Added this
     },
+    { 
+      title: 'Aggieworks: Clubly',
+      description: 'Designed and developed the landing page for the club finder app created by Aggieworks. Clubly, is a convenient and efficient solution for discovering, organizing, and managing club information on campus. It streamlines the process, providing a centralized hub for students to explore clubs, stay updated with memberships and events, and communicate with club leaders.',
+      tags: ['ASTRO','FIGMA'],
+      gridClass: 'card-1x1',
+      backgroundColor: 'bg-color-yellow',
+      textPosition: 'top-left', // Added this
+    },
+    
     { 
       title: 'SparkDefense ',
       description: 'A system to detect the fires of an area, inform nearby servers and devices in that area of those fires, and ensure the safety of the residents in the community.',
