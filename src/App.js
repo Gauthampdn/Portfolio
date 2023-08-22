@@ -65,7 +65,7 @@ function App() {
     },
     { 
       title: 'Pergi',
-      gridClass: 'card-2x2',
+      gridClass: 'card-2x1',
       description: 'I am the Founder of Pergi: Your Ultimate ChatGPT Prompt Assistant. Recognizing the inconvenience of constantly retyping ChatGPT prompts, I embarked on a mission to streamline this process to help with prompt engineering.',
       tags: ['ASTRO', 'APPSCRIPT', 'EXCEL'],
       backgroundColor: 'bg-color-green',
@@ -73,16 +73,11 @@ function App() {
     },
     { 
       description: 'Description for project 2',
-      gridClass: 'card-2x1',
+      gridClass: 'card-1x1',
       backgroundColor: 'bg-color-lavender',
       textPosition: 'top-left', // Added this
     },
-    { 
-      description: 'Description for project 2',
-      gridClass: 'card-2x1',
-      backgroundColor: 'bg-color-offwhite',
-      textPosition: 'top-left', // Added this
-    },
+
 
 
     // ... other projects ...
