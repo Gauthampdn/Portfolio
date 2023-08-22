@@ -43,7 +43,7 @@ function App() {
       description: 'An AI study plan creator where students can input a topic and the amount of time they plan to study. The application then generates a detailed study plan for the user based on this input.',
       theme: 'light',
       tags: ['REACT.JS','OPENAI API'],
-      link: 'https://github.com/Gauthampdn/Aggieworkss23',
+      link: 'https://github.com/Gauthampdn/AIStudyPlan',
       gridClass: 'card-1x1',
       backgroundColor: 'bg-color-blue', // or 'path/to/image.jpg' or another color class
       textPosition: 'top-left', // Added this
