@@ -88,7 +88,7 @@ function App() {
     },
     { 
       title: 'Mulithreading System ',
-      description: 'In this project, we implemented a queue, a basic user-level thread library, a semaphore library, and preemption. The implementation of this involved creating a Queue, Thread, Semaphore, and Preemption API.',
+      description: 'In this project I implemented a queue, a basic user-level thread library, a semaphore library, and preemption using C.',
       tags: ['C (PROGRAMMING LANGUAGE'],
       link: 'https://github.com/Gauthampdn/ECS150P2',
       gridClass: 'card-2x1',
