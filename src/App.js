@@ -51,7 +51,7 @@ function App() {
     { 
       title: 'SafeGrub',
       description: 'A web app to aid visually impaired individuals with food allergies. The app enables users to scan food wrappers using their webcam, then parses through a database of ingredients to identify any common allergens associated with the serial number, and reads the list of ingredients aloud.',
-      tags: ['HTML/CSS', 'JAVASCRIPT', 'REST API'],
+      tags: ['PYTHON', 'HTML/CSS', 'JAVASCRIPT', 'REST API'],
       link: 'https://github.com/Gauthampdn/hackdavis2023',
       gridClass: 'card-3x1',
       theme: 'dark',
