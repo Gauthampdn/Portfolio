@@ -9,7 +9,7 @@ import serioussmile from './backgrounds/serioussmile.JPG'
 import whiteshadow from './backgrounds/whiteshadow.jpg'
 import food from './backgrounds/food.jpg'
 import forestfire from './backgrounds/forestfire.jpg'
-
+import threading from './backgrounds/threading.png'
 
 function App() {
   const projects = [
@@ -69,7 +69,7 @@ function App() {
     },
     { 
       title: 'Aggieworks: Clubly',
-      description: 'Designed and developed the landing page for the club finder app created by Aggieworks. Clubly, is a convenient and efficient solution for discovering, organizing, and managing club information on campus. It streamlines the process, providing a centralized hub for students to explore clubs, stay updated with memberships and events, and communicate with club leaders.',
+      description: 'Designed and developed the landing page for the club finder app created by Aggieworks. Clubly, is a convenient and efficient solution for discovering, organizing, and managing club information on campus.',
       tags: ['ASTRO','FIGMA'],
       gridClass: 'card-1x1',
       backgroundColor: 'bg-color-yellow',
@@ -86,6 +86,17 @@ function App() {
       backgroundImage: forestfire,
       textPosition: 'top-left', // Added this
     },
+    { 
+      title: 'Mulithreading System ',
+      description: 'In this project, we implemented a queue, a basic user-level thread library, a semaphore library, and preemption. The implementation of this involved creating a Queue, Thread, Semaphore, and Preemption API.',
+      tags: ['C (PROGRAMMING LANGUAGE'],
+      link: 'https://github.com/Gauthampdn/ECS150P2',
+      gridClass: 'card-2x1',
+      theme: 'dark',
+      backgroundImage: threading,
+      textPosition: 'bottom-left', // Added this
+    },
+
 
 
 

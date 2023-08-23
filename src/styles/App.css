@@ -19,7 +19,7 @@
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(var(--division), 1fr);
-  grid-auto-rows: minmax(400px, auto);
+  grid-auto-rows: minmax(300px, auto);
   grid-auto-flow: dense;
 }
 
@@ -206,14 +206,20 @@
 .social-icons a {
   margin: 20px; /* Adjust as needed */
   color: #000000; /* Or any color you prefer */
+  transition: color 0.15s ease-in-out;
   text-decoration: none;
   display: absolute;
   justify-content: center; /* Horizontally center the items */
   align-items: center;    }
 
 .social-icons i {
-  font-size: 40px; /* Adjust size as needed */
+  font-size: 30px; /* Adjust size as needed */
 }
+
+.social-icons a:hover{
+  color: #5e5bff;
+}
+
 
 /* ... existing styles ... */
 
@@ -239,26 +245,26 @@
 
 h3 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 20px;
   margin: 4px 0px 4px 0px; /* Remove margin */
   padding: 0; /* Remove padding */
 }
 
 h4 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 14px;
   margin: 3px 0px 3px 0px; /* Remove margin */
   padding: 0; /* Remove padding */
 }
 
 p { /* Assuming p is used for descriptions */
   font-weight: 400;
-  font-size: 16px; 
+  font-size: 14px; 
 
 }
 
 p, h3, h4, .tags {
-  max-width: 475px;
+  max-width: 400px;
   word-spacing: 1px;
   line-height: 1.4;
 }
@@ -317,7 +323,7 @@ p, h3, h4, .tags {
   transition: background-color 0.2s ease;
   color: #000;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: none;
 }
 
