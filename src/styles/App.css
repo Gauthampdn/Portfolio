@@ -276,7 +276,7 @@ p, h3, h4, .tags {
   width: calc(100% + 2 * var(--app-margin));
   background-color: black; /* Set background to black */
   color: white; /* Set font color to white */
-  padding: 20px 0;
+  padding: 10px 0px;
   text-align: center;
   font-size: 16px;
   margin-top: 50px;
