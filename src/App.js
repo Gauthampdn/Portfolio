@@ -59,9 +59,9 @@ function App() {
       textPosition: 'bottom-left', // Added this
     },
     { 
-      title: 'Pergi',
+      title: 'Pergi.app',
       gridClass: 'card-1x2',
-      description: 'I am the Founder of Pergi: Your Ultimate ChatGPT Prompt Assistant. Recognizing the inconvenience of constantly retyping ChatGPT prompts, I embarked on a mission to streamline this process to help with prompt engineering.',
+      description: 'I am the Founder of pergi.app: Your Ultimate ChatGPT Prompt Assistant. Recognizing the inconvenience of constantly retyping ChatGPT prompts, I embarked on a mission to streamline this process to help with prompt engineering.',
       link: 'https://pergi.app/',
       tags: ['ASTRO', 'APPSCRIPT', 'EXCEL'],
       backgroundColor: 'bg-color-green',
