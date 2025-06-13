@@ -49,6 +49,16 @@ function App() {
       textPosition: 'top-left', // Added this
     },
     { 
+      title: 'Tallyrus',
+      description: 'An AI-powered essay grading platform providing structured, Common Core-aligned feedback to help teachers save time and improve student outcomes.',
+      theme: 'light',
+      tags: ['REACT.JS', 'NODE.JS', 'OPENAI API'],
+      link: 'https://github.com/Gauthampdn/Tallyrus',
+      gridClass: 'card-1x1',
+      backgroundColor: 'bg-color-green',
+      textPosition: 'top-left',
+    },
+    { 
       title: 'SafeGrub',
       description: 'A web app to aid visually impaired individuals with food allergies. The app enables users to scan food wrappers using their webcam, then parses through a database of ingredients to identify any common allergens associated with the serial number, and reads the list of ingredients aloud.',
       tags: ['PYTHON', 'HTML/CSS', 'JAVASCRIPT', 'REST API'],
@@ -64,7 +74,7 @@ function App() {
       description: 'I am the Founder of pergi.app: Your Ultimate ChatGPT Prompt Assistant. Recognizing the inconvenience of constantly retyping ChatGPT prompts, I embarked on a mission to streamline this process to help with prompt engineering.',
       link: 'https://pergi.app/',
       tags: ['ASTRO', 'APPSCRIPT', 'EXCEL'],
-      backgroundColor: 'bg-color-green',
+      backgroundColor: 'bg-color-red',
       textPosition: 'top-left', // Added this
     },
     { 
